@@ -1,7 +1,54 @@
-/* 0f0f0f preto
-f7c524 amarelho */
-
+/*f7c524 amarelho */
 .raiz {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #0f0f0f;
     color: white;
+}
+.cabecalho__titulo {
+    margin: 40px;
+}
+.titulo {
+    color: #f7c524;
+    font-size: 3rem;
+    padding: 5px;
+}
+.subtitulo {
+    padding: 5px;
+    color: #f7c524;
+}
+.cabecalho__sub {
+    background-color: #f7c524;
+    position: absolute;
+    width: 30%;
+    right: 0;
+}
+
+.container__imagens {
+    width: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.wallpaper__cima {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.wallpaper__esquerda {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.wallpaper__direita {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.wallparer__baixo {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
 }
