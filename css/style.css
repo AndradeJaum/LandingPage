@@ -59,17 +59,16 @@
 }
 
 
-.container__texto {
-position: relative;
-}
 .caixa__info {
-    background-color: blueviolet;
+    background-color: #0f0f0f;
     width: 60%;
-    height: auto;
+    height: 300px;
     position: absolute;
+    left: 0%;
+    transform: translateY(-470%);
 }
 .subtitulo__caixa___info {
-    text-align: justify;
+    padding: 10px;
 }
 .caixa__slogan {
     position: absolute;
