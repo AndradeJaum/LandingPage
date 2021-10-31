@@ -1,0 +1,55 @@
+.caixa__info {
+    background-color: #f7c524;
+    color: #0f0f0f;
+    width: 30%;
+    height: 15%;
+    position: absolute;
+    top: 23%;
+}
+.subtitulo__caixa___info {
+    padding: 20px 35px;
+    font-size: 2.5rem;
+}
+.primeiro__texto {
+    padding: 10px 35px;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.veja__mais {
+    border: none;
+    background-color: #0f0f0f;
+    color: #f7c524;
+    padding: 10px;
+    margin:10px 35px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.caixa__slogan {
+    position: absolute;
+    background-color: #f7c524;
+    color: #0f0f0f;
+    width: 40%;
+    height: 11%;
+    bottom: 30%;
+    transform: translateX(20%);
+}
+.segundo__texto {
+    padding: 10px 35px;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+.contrate {
+    border: none;
+    background-color: #0f0f0f;
+    color: #f7c524;
+    padding: 10px;
+    margin:10px 40%;
+    width: 150px;
+    cursor: pointer;
+}
+.icone {
+    cursor: pointer;
+}

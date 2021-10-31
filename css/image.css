@@ -1,0 +1,36 @@
+.container__imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.container__cima {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    padding-bottom: 30px;
+}
+.container__esquerda {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding-right: 15px;
+}
+.container__direita {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding-left: 15px;
+}
+.container__baixo {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    padding: 30px 0px;
+}
+.imagem__cima {
+    width: 100%;
+}
+.imagem__esquerda {
+    width: 100%;
+}
+.imagem__direita {
+    width: 100%;
+}
+.imagem__baixo {
+    width: 100%;
+}
