@@ -1,7 +1,7 @@
 .caixa__info {
     background-color: #f7c524;
     color: #0f0f0f;
-    width: 30%;
+    width: 60%;
     height: 15%;
     position: absolute;
     top: 23%;
@@ -30,7 +30,7 @@
     position: absolute;
     background-color: #f7c524;
     color: #0f0f0f;
-    width: 40%;
+    width: 70%;
     height: 11%;
     bottom: 30%;
     transform: translateX(20%);
@@ -46,10 +46,7 @@
     background-color: #0f0f0f;
     color: #f7c524;
     padding: 10px;
-    margin:10px 40%;
+    margin: 10px 37%;
     width: 150px;
-    cursor: pointer;
-}
-.icone {
     cursor: pointer;
 }

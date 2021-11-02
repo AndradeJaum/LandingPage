@@ -1,10 +1,7 @@
-.rodape {
-    max-width: 900px;
-    margin: auto;
-}
 .icone {
-    width: 40px;
+    width: 30px;
     margin: 30px;
+    cursor: pointer;
 }
 .botao__sociais {
     text-align: center;

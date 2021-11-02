@@ -3,10 +3,10 @@
     background-color: #0f0f0f;
     color: white;
     position: relative;
-}
-.cabecalho {
     max-width: 900px;
     margin: auto;
+}
+.cabecalho {
     position: relative;
     height: 150px;
     display: flex;
@@ -39,8 +39,4 @@
 .sub__lateral {
     letter-spacing: 6px;
     color: #0f0f0f;
-}
-.conteudo {
-    max-width: 900px;
-    margin: auto;
 }
